@@ -1,16 +1,19 @@
 import React from "react";
  const Jumbotron = () => {
     return (
-        <div className="jumbo position-relative p-5 text-start text-muted bg-emphasis border border-dashed">
-            <svg className="bi mt-5 mb-3" width="48" height="48"><use xlinkHref="#check2-circle"></use></svg>
-            <h1 className="text-body-emphasis">A Warm Welcome!</h1>
-            <p className="col-lg-6 mb-4">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus veritatis nobis magni. Tempore porro quia eligendi rerum modi pariatur aliquid?
-            </p>
-            <button className="btn btn-primary px-5 mb-5" type="button">
-            Call to action
-            </button>
-        </div>
+        
+            <div className="row jumbo mb-3 mx-1 ">
+                        <h1 className="text-body-emphasis display-3">A Warm Welcome!</h1>
+                        <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Libero eligendi ad beatae, sed iure facere debitis fuga quam perferendis assumenda voluptates sunt magnam,
+                            adipisci veritatis aliquid culpa nobis optio labore placeat aspernatur ducimus maiores recusandae.
+                           Ea expedita ipsum voluptate, reprehenderit incidunt, ex doloribus ipsa voluptas repellendus dolorem dicta. Saepe, deserunt.
+                        </p>
+                        <p>
+                            <a class="btn btn-primary btn-lg" href="#" role="button">Call to action!</a>
+                        </p>
+            </div>  
     )
  }
  export default Jumbotron;

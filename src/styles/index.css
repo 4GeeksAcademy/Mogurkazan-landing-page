@@ -11,27 +11,18 @@
 
 */
 .jumbo {
-    width: 1320px;
-    height: 500px;
-    margin-top: 70px;
-    margin-bottom: 20px;
-    background-color: rgb(189, 181, 181);
-}
-.jumbo h1 {
-    color: black;
-    font-size: 60px;
-}
-.jumbo p {
-    color: black;
+    margin-top: 80px;
+    background-color: gray;
 }
 .miniatura {
-    width: 325px;
-    height: 500px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .miniatura img {
-    height: 50%;
+    height: 200px;
+    background-color: grey;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 .miniatura a {
     height: 15%;
@@ -39,4 +30,7 @@
 }
 .mainContent {
     width: 1350px;
+}
+.pie {
+    width: 100%;
 }

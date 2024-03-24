@@ -12,13 +12,13 @@ const Home = () => {
 	return (
 		<>
 			<Navbar/>
-			<div className="mainContent container">
-				<Jumbotron/>
-				<div className="d-flex">
-					<Minicard/><Minicard/><Minicard/><Minicard/>
-				</div>
-				
+			<div class="container">
+					<Jumbotron/>
+					<div className="row text-center">
+						<Minicard/><Minicard/><Minicard/><Minicard/>
+					</div>	
 			</div>
+				
 			<Footer/>
 		</>
 	);
